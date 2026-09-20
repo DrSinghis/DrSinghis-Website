@@ -116,10 +116,10 @@ function App() {
         <section className="about" id="about">
           <div className="about-copy"><p className="eyebrow">OUR COMMITMENT</p><h2>WHY CHOOSE<br/><em>DR. SINGHI'S?</em></h2><p>Rooted in Ayurvedic tradition, Dr. Singhi's  is committed to bringing thoughtfully formulated wellness products to everyday life.</p></div>
           <div className="trust-grid">
-            <div><Leaf/><strong>Ayurvedic<br/>Tradition</strong></div>
+            <div><Leaf/><strong>80+<br/>Products</strong></div>
             <div><FlaskConical/><strong>Quality<br/>Focused</strong></div>
             <div><Factory/><strong>In House<br/>Production</strong></div>
-            <div><Heart/><strong>Wellness<br/>Mindset</strong></div>
+            <div><Heart/><strong>Result Oriented<br/>Formulations</strong></div>
           </div>
         </section>
 
