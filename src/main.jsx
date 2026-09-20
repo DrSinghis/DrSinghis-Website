@@ -9,6 +9,14 @@ import makardhwajImage from './assets/Sidh-Makardhawaj.jpeg';
 import kaliMirchImage from './assets/Kali-Mirch.jpeg';
 import shatavariImage from './assets/Satavari.jpeg';
 import logoImage from './assets/dr-singhis-logo.png';
+import chandraprabhaImage from './assets/Chandraprabha-Vati.jpeg';
+import lohBhasamImage from './assets/Loh-Bhasam.jpeg';
+import abhrakBhasamImage from './assets/Abhrak-Bhasam.jpeg';
+import trivangBhasamImage from './assets/Trivang-Bhasam.jpeg';
+import bharmiImage from './assets/Bharmi.jpeg';
+import arjunaImage from './assets/Arjuna.jpeg';
+import shankhpushpiImage from './assets/Shankhpushpi.jpeg';
+
 
 const benefits = [
   { icon: Dumbbell, title: 'Enhances Stamina\n& Endurance', text: 'Helps you stay active throughout the day' },
@@ -22,6 +30,13 @@ const ingredients = [
   { name: 'Sidh Makardhawaj', note: 'Traditional ingredient', image: makardhwajImage },
   { name: 'Kali Mirch', note: 'Black pepper', image: kaliMirchImage },
   { name: 'Shatavari', note: 'Herbal ingredient', image: shatavariImage },
+  { name: 'Chandraprabha Vati', note: 'Urinary Wellness', image: chandraprabhaImage },
+  { name: 'Loh Bhasam', note: 'Strength & Vitality', image: lohBhasamImage },
+  { name: 'Abhrak Bhasam', note: 'Immunity & Rejuvenation', image: abhrakBhasamImage },
+  { name: 'Trivang Bhasam', note: 'Complete Wellness', image: trivangBhasamImage },
+  { name: 'Bharmi', note: 'Memory & Focus', image: bharmiImage },
+  { name: 'Arjuna', note: 'Heart Health', image: arjunaImage },
+  { name: 'Shankhpushpi', note: 'Mental Clarity', image: shankhpushpiImage },
 ];
 
 function Logo() {
@@ -57,8 +72,7 @@ function App() {
         <section className="hero" id="home">
           <div className="hero-copy">
             <p className="eyebrow">ANCIENT WISDOM <Leaf size={18}/> MODERN LIFE</p>
-<h1><span className="refit-text">REFIT</span> FOR<br/><em>A STRONGER YOU</em></h1>            <p className="hero-sub">Ayurvedic Support for Daily Life</p>
-            <div className="mini-benefits">
+<h1><span className="refit-text">REFIT</span> <em>FOR</em><br/><em>A STRONGER YOU</em></h1>            <div className="mini-benefits">
               <div><Leaf/><span>Natural<br/>Ingredients</span></div>
               <div><Dumbbell/><span>Boosts<br/>Strength & Stamina</span></div>
               <div><Users/><span>For Men<br/>& Women</span></div>
