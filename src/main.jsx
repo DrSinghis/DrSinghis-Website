@@ -9,7 +9,7 @@ import makardhwajImage from './assets/Sidh-Makardhawaj.jpeg';
 import kaliMirchImage from './assets/Kali-Mirch.jpeg';
 import shatavariImage from './assets/Satavari.jpeg';
 import logoImage from './assets/dr-singhis-logo.png';
-import chandraprabhaImage from './assets/Chandraprabha-Vati.jpeg';
+import chandraprabhaImage from './assets/Chandraprabha-Vati.png';
 import lohBhasamImage from './assets/Loh-Bhasam.jpeg';
 import abhrakBhasamImage from './assets/Abhrak-Bhasam.jpeg';
 import trivangBhasamImage from './assets/Trivang-Bhasam.jpeg';
