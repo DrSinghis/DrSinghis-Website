@@ -20,9 +20,9 @@ import shankhpushpiImage from './assets/Shankhpushpi.jpeg';
 
 const benefits = [
   { icon: Dumbbell, title: 'Enhances Stamina\n& Endurance', text: 'Helps you stay active throughout the day' },
-  { icon: Heart, title: 'Supports Strength\n& Vitality', text: 'Promotes overall well-being' },
-  { icon: Zap, title: 'Improves Energy\nPerformance', text: 'Keeps you energized naturally' },
-  { icon: Leaf, title: 'Ayurvedic\n& Natural', text: 'A thoughtfully crafted herbal formulation' },
+  { icon: Heart, title: 'Herbs that strength Metabolic\n& Cardiovascular health', text: 'Promotes overall well-being' },
+  { icon: Zap, title: 'Improves the Quality of\nLife', text: 'Keeps you energized naturally' },
+  { icon: Leaf, title: 'Act as Active Key \nCommponent', text: 'During the Recovery & Remission Phase' },
 ];
 const ingredients = [
   { name: 'Kesar', note: 'Traditional botanical', image: kesarImage },
