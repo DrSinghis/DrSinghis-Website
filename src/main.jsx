@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Leaf, Dumbbell, Zap, ShieldCheck, FlaskConical, Users, Heart, Phone, Mail, MapPin, ArrowRight, Menu } from 'lucide-react';
+import { Leaf, Dumbbell, Zap, ShieldCheck, FlaskConical, Users, Heart, Phone, Mail, MapPin, ArrowRight, Menu, Factory } from 'lucide-react';
 import './styles.css';
 import productImage from './assets/refit-forte.png';
 import kesarImage from './assets/Kesar.jpeg';
@@ -57,8 +57,7 @@ function App() {
         <section className="hero" id="home">
           <div className="hero-copy">
             <p className="eyebrow">ANCIENT WISDOM <Leaf size={18}/> MODERN LIFE</p>
-            <h1>REFIT FOR<br/><em>A STRONGER YOU</em></h1>
-            <p className="hero-sub">Ayurvedic Support for Daily Life</p>
+<h1><span className="refit-text">REFIT</span> FOR<br/><em>A STRONGER YOU</em></h1>            <p className="hero-sub">Ayurvedic Support for Daily Life</p>
             <div className="mini-benefits">
               <div><Leaf/><span>Natural<br/>Ingredients</span></div>
               <div><Dumbbell/><span>Boosts<br/>Strength & Stamina</span></div>
@@ -88,7 +87,7 @@ function App() {
         <section className="ingredients section" id="product">
           <p className="eyebrow centered">INSPIRED BY TRADITION</p>
           <h2>POWERED BY <em>NATURE</em></h2>
-          <p className="section-intro">A thoughtful blend of time-honoured Ayurvedic ingredients</p>
+          <p className="section-intro">A thoughtful blend of time tested Ayurvedic ingredients</p>
           <div className="ingredient-marquee">
   <div className="ingredient-track">
     {[...ingredients, ...ingredients].map((item, index) => (
@@ -105,7 +104,7 @@ function App() {
           <div className="trust-grid">
             <div><Leaf/><strong>Ayurvedic<br/>Tradition</strong></div>
             <div><FlaskConical/><strong>Quality<br/>Focused</strong></div>
-            <div><Users/><strong>For Men<br/>& Women</strong></div>
+            <div><Factory/><strong>In House<br/>Production</strong></div>
             <div><Heart/><strong>Wellness<br/>Mindset</strong></div>
           </div>
         </section>
@@ -122,7 +121,7 @@ function App() {
           <div className="contact-motto"><Leaf/><p>When Body & Soul Combined with Ayurveda<br/><em>Becomes Life.</em></p></div>
         </section>
       </main>
-      <footer><span>© {new Date().getFullYear()} Dr. Singhi's . All Rights Reserved.</span><span>Safe <i/> Natural <i/> Trusted</span></footer>
+      <footer><span>© 1996 Dr. Singhi's . All Rights Reserved.</span><span>Safe <i/> Natural <i/> Trusted</span></footer>
     </>
   );
 }
