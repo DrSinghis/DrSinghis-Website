@@ -22,7 +22,7 @@ const benefits = [
   { icon: Dumbbell, title: 'Enhances Stamina\n& Endurance', text: 'Helps you stay active throughout the day' },
   { icon: Heart, title: 'Herbs that strength Metabolic\n& Cardiovascular health', text: 'Promotes overall well-being' },
   { icon: Zap, title: 'Improves the Quality of\nLife', text: 'Keeps you energized naturally' },
-  { icon: Leaf, title: 'Act as Active Key \nCommponent', text: 'During the Recovery & Remission Phase' },
+  { icon: Leaf, title: 'Act as Active Key \nComponent', text: 'During the Recovery & Remission Phase' },
 ];
 const ingredients = [
   { name: 'Kesar', note: 'Traditional botanical', image: kesarImage },
@@ -56,7 +56,7 @@ function App() {
       <header className="site-header">
         <Logo />
         <nav className="nav">
-          <a href="#home">Home</a><a href="#about">About Us</a><a href="#product">Our Products</a><a href="#benefits">Benefits</a><a href="#contact">Contact</a>
+          <a href="#home">Home</a><a href="#about">About Us</a><a href="#product">Ingredients in REFIT</a><a href="#benefits">Benefits</a><a href="#contact">Contact</a>
         </nav>
 <a
   className="header-cta"
@@ -132,7 +132,7 @@ function App() {
             <p><span>Unit-I, Yamunanagar, Haryana</span></p>
             <p><span>Unit-II, Sunam, Punjab</span></p>
           </div>
-          <div className="contact-motto"><Leaf/><p>When Body & Soul Combined with Ayurveda<br/><em>Becomes Life.</em></p></div>
+          <div className="contact-motto"><Leaf/><p>When Body & Soul Combine with Ayurveda<br/><em>Becomes Life.</em></p></div>
         </section>
       </main>
       <footer><span>© 1996 Dr. Singhi's . All Rights Reserved.</span><span>Safe <i/> Natural <i/> Trusted</span></footer>
