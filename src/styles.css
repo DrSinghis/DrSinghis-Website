@@ -3872,3 +3872,99 @@
     margin-bottom: 26px;
   }
 }
+/* =========================================
+   DR. SINGHI'S — BLUE BRAND HIGHLIGHTS STRIP
+========================================= */
+
+.premium-home .premium-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 28px;
+
+  padding: 30px clamp(24px, 6vw, 90px);
+
+  /* Premium deep blue */
+  background: linear-gradient(
+    110deg,
+    #153b56 0%,
+    #1d4966 50%,
+    #153b56 100%
+  );
+
+  border-top: 1px solid rgba(179, 148, 84, 0.5);
+  border-bottom: 1px solid rgba(179, 148, 84, 0.5);
+}
+
+/* Individual highlight */
+
+.premium-home .premium-highlights .home-highlight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 8px 12px;
+}
+
+/* Gold icon circles */
+
+.premium-home .premium-highlights .home-highlight-icon {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  color: #d5b46b;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(213, 180, 107, 0.5);
+  border-radius: 50%;
+}
+
+/* Highlight headings */
+
+.premium-home .premium-highlights .home-highlight h3 {
+  margin: 0 0 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Supporting text */
+
+.premium-home .premium-highlights .home-highlight p {
+  margin: 0;
+  color: #d2dee7;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+  .premium-home .premium-highlights {
+    gap: 12px;
+    padding: 24px 3%;
+  }
+
+  .premium-home .premium-highlights .home-highlight {
+    gap: 10px;
+    padding: 8px 4px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 760px) {
+  .premium-home .premium-highlights {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 22px 20px;
+  }
+
+  .premium-home .premium-highlights .home-highlight {
+    padding: 8px 0;
+  }
+}

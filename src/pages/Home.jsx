@@ -338,13 +338,13 @@ function Home() {
 
       {/* BRAND HIGHLIGHTS */}
       <section className="home-highlights premium-highlights">
-      <div className="home-highlight">
+     <div className="home-highlight">
   <div className="home-highlight-icon">
-    <Leaf size={25} />
+    <Factory size={22} />
   </div>
   <div>
-    <h3>Ayurvedic Heritage</h3>
-    <p>Inspired by traditional Ayurvedic knowledge.</p>
+    <h3>In-house Production</h3>
+    <p>Made with care at our own production facility.</p>
   </div>
 </div>
 
